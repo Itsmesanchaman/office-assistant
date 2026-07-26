@@ -1,0 +1,177 @@
+{
+  "login": "लग इन",
+  "add_employee": "कर्मचारी थप्नुहोस्",
+  "task_assigned": "कार्य तोकियो",
+  "ring_again": "फेरि कल गर्नुहोस्",
+  "admin_profile": "एडमिन प्रोफाइल",
+  "admin": "एडमिन",
+  "live_monitoring": "लाइभ मोनिटरिङ",
+  "live_monitoring_subtitle": "कर्मचारीहरू हाल कुन कार्यमा छन्, लाइभ हेर्नुहोस्",
+  "language": "भाषा",
+  "select_language_subtitle": "एप भाषा छान्नुहोस्",
+  "logout": "लग आउट",
+  "logout_confirm": "के तपाईं साँच्चै लग आउट गर्न चाहनुहुन्छ?",
+  "cancel": "रद्द गर्नुहोस्",
+
+  "bring_file": "फाइल ल्याउनुहोस्",
+  "prepare_tea": "चिया बनाउनुहोस्",
+  "urgent_meeting": "आवश्यक बैठक",
+  "come_now": "अहिले आउनुहोस्",
+  "cleaning": "सफाइ",
+  "home": "गृह",
+  "dashboard": "ड्यासबोर्ड",
+  "notifications": "सूचनाहरू",
+  "history": "इतिहास",
+  "search_employee": "कर्मचारी खोज्नुहोस्...",
+  "officer_dashboard": "कार्यालय ड्यासबोर्ड",
+  "available": "उपलब्ध",
+  "busy": "व्यस्त",
+  "on_leave": "बिदामा",
+  "assigned_task": "तोकिएको कार्य",
+  "activity_feed": "गतिविधि फीड",
+  "all": "सबै",
+  "pending": "बाँकी",
+  "accept": "स्वीकार गर्नुहोस्",
+  "done": "सम्पन्न",
+  "no_tasks_assinged": "कुनै कार्य तोकिएको छैन",
+  "all_status": "सबै स्थिति",
+  "all_time": "सबै समय",
+  "export": "निर्यात गर्नुहोस्",
+  "welcome_admin": "स्वागत छ Admin 👋",
+  "employees": "कर्मचारीहरू",
+  "tasks": "कार्यहरू",
+  "completed": "सम्पन्न",
+  "alerts": "सूचनाहरू",
+  "manage_employees_tasks": "कर्मचारी र कार्यहरूलाई प्रभावकारी रूपमा व्यवस्थापन गर्नुहोस्",
+  "active_staff": "सक्रिय स्टाफ",
+  "finished_tasks": "समाप्त कार्यहरू",
+  "task_updates": "कार्य अद्यावधिक",
+  "task_summary": "कार्य सारांश",
+  "employee_management": "कर्मचारी व्यवस्थापन",
+  "quick_actions": "त्वरित कार्यहरू",
+  "reports": "रिपोर्टहरू",
+  "normal": "सामान्य",
+  "urgent": "आवश्यक",
+  "very_urgent": "अत्यन्त आवश्यक",
+  "note_optional": "नोट (वैकल्पिक)",
+  "any_extra_detail_for_this_task": "यो कार्यको लागि थप विवरण...",
+  "assign_task": "कार्य तोक्नुहोस्",
+  "work_type": "कार्य प्रकार",
+  "no_employee_found": "कुनै कर्मचारी फेला परेन",
+  "admin_portal": "एडमिन पोर्टल",
+  "today": "आज",
+  "yesterday": "हिजो",
+  "last_week": "गत हप्ता",
+  "older": "पुरानो",
+  "export_coming_soon": "निर्यात गर्ने सुविधा छिटै आउँदैछ!",
+  "no_history_found": "कुनै इतिहास फेला परेन",
+
+  "no_employees_match": "\"{query}\" सँग मिल्ने कुनै कर्मचारी फेला परेन",
+  "delete_employee": "कर्मचारी मेटाउनुहोस्",
+  "delete_confirmation": "के तपाईं यो कर्मचारीलाई मेटाउन निश्चित हुनुहुन्छ?",
+  "delete": "मेटाउनुहोस्",
+  "could_not_delete_employee": "कर्मचारी मेटाउन सकिएन: {error}",
+  "no_status_updates_yet": "अझै कुनै स्थिति अद्यावधिक छैन",
+  "activity_message": " ले '{workType}' कार्यलाई {status} मा चिन्हित गर्नुभयो।",
+
+  "please_choose_work_type": "कृपया कार्य प्रकार छान्नुहोस् वा लेख्नुहोस्",
+  "waiting_for_response": "प्रतिक्रियाको लागि पर्खिँदै",
+  "priority_label": "प्राथमिकता: {priority}",
+  "type_work_here": "कार्य लेख्नुहोस्...",
+  "priority": "प्राथमिकता",
+  "extra_detail_hint": "यो कार्यको लागि थप विवरण...",
+  "task_assigned_success": "🔔 '{workType}' कार्य {employee} लाई तोकियो — रिङबेल पठाइयो",
+  "failed_to_assign_task": "कार्य तोक्न सकिएन: {error}",
+  "ring_again_success": "🔔 {employee} लाई '{workType}' को लागि फेरि कल गरियो",
+  "failed_to_ring": "फेरि कल गर्न सकिएन: {error}",
+  "ring_success": "{name} लाई कल गरियो ✅",
+  "failed_to_ring_connection": "कल गर्न सकिएन। इन्टरनेट जाँच गर्नुहोस्।",
+  "just_ring": "{name} लाई मात्र कल गर्नुहोस्",
+  "ringing...": "कल गर्दै...",
+
+  "accepted": "स्वीकार गरियो",
+
+  "assigned_tasks" : "सुम्पिएका कार्यहरू",
+
+  "search_employees_hint" : "कर्मचारीको नाम खोज्नुहोस्",
+
+  "employee_name": "कर्मचारीको नाम",
+  "department": "विभाग",
+  "designation": "पद",
+  "room_number": "कोठा नम्बर",
+  "login_credentials": "लग इन विवरण (सामान्य प्रयोगकर्ताको लागि)",
+  "mobile_no_login": "मोबाइल नम्बर (लग इन गर्न प्रयोग हुने)",
+  "email_optional": "इमेल (वैकल्पिक)",
+  "password": "पासवर्ड",
+  "fill_required_fields": "कृपया नाम, पद, कोठा नम्बर, मोबाइल नम्बर र पासवर्ड भर्नुहोस्",
+  "could_not_save_employee": "कर्मचारी थप्न सकिएन: {error}",
+
+  
+  "room": "कोठा",
+  "mobile": "मोबाइल",
+
+  "priority_normal": "सामान्य",
+"priority_urgent": "जरुरी",
+"priority_very_urgent": "अति जरुरी",
+
+
+  "mobile_number": "मोबाइल नम्बर",
+  "room_no": "कोठा नं.",
+  "email": "इमेल",
+  "employee_id": "कर्मचारी आईडी",
+  
+  "change_mobile": "मोबाइल नम्बर परिवर्तन गर्नुहोस्",
+  "profile_note": "यहाँ केवल तपाईंको मोबाइल नम्बर मात्र परिवर्तन गर्न सकिन्छ। नाम, पद, विभाग र पासवर्ड Admin ले व्यवस्थापन गर्छ।",
+
+
+  "update_your_status": "आफ्नो स्थिति अद्यावधिक गर्नुहोस्",
+  "status_updated_to": "स्थिति {} मा अद्यावधिक गरियो",
+  "failed_to_update_status": "स्थिति अद्यावधिक गर्न असफल भयो",
+  "hello": "नमस्ते,",
+  "you_have": "तपाईंसँग",
+  "no_tasks_here": "यहाँ कुनै कार्य छैन।",
+  "from": "बाट: {}",
+
+  "no_history_yet": "अहिलेसम्म कुनै इतिहास छैन",
+
+  "assign": "तोक्नुहोस्",
+  
+  "profile": "प्रोफाइल",
+  "my_profile": "मेरो प्रोफाइल",
+
+  "my_assigned_tasks_live": "मैले तोकेका कार्यहरू — लाइभ",
+
+  "user_not_found": "प्रयोगकर्ता फेला परेन",
+  "account_deleted_logging_out": "तपाईंको खाता हटाइएको छ। लगआउट हुँदैछ...",
+
+  "no_notifications_yet": "अहिलेसम्म कुनै सूचना छैन",
+  "new_task_assigned": "नयाँ कार्य तोकिएको छ",
+  "view_task": "कार्य हेर्नुहोस्",
+
+  "you_have_task_from": "{department} बाट तपाईंलाई एउटा कार्य तोकिएको छ।",
+  "you_have_new_task_from": "{department} बाट तपाईंलाई नयाँ कार्य तोकिएको छ।",
+
+  "no_colleagues_to_assign": "कार्य तोक्नका लागि अन्य सहकर्मी उपलब्ध छैनन्।",
+  "tap_map_icon_for_live_status": "तपाईंले तोक्नुभएको कार्यहरूको प्रत्यक्ष स्थिति हेर्न माथिको नक्सा आइकनमा थिच्नुहोस्।",
+  "tasks_sent_by_you": "तपाईंले तोक्नुभएको कार्यहरू: {count}",
+
+  "Manager": "प्रबन्धक",
+  "Receptionist": "रिसेप्शनिस्ट",
+  "Office Assistant": "कार्यालय सहायक",
+
+  "IT": "आईटी",
+  "HR": "मानव संसाधन",
+  "Admin": "प्रशासन",
+  "Account": "लेखा", 
+
+  "employee_offline": "कर्मचारी अफलाइन",
+
+  "employee_offline_cannot_assign": "{name} हाल अफलाइन हुनुहुन्छ र उहाँलाई कार्य तोक्न सकिँदैन।",
+
+   "online": "अनलाइन",
+  "offline": "अफलाइन"
+
+
+
+  
+}

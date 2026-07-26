@@ -1,0 +1,180 @@
+{
+    "login": "Login",
+    "add_employee": "Add Employee",
+    "task_assigned": "Task Assigned",
+    "ring_again": "Ring Again",
+    "admin_profile": "Admin Profile",
+    "admin": "Admin",
+    "live_monitoring": "Live Monitoring",
+    "live_monitoring_subtitle": "See employees currently working on a task, live",
+    "language": "Language",
+    "select_language_subtitle": "Choose app language",
+    "logout": "Logout",
+    "logout_confirm": "Are you sure you want to logout?",
+    "cancel": "Cancel",
+
+
+    "bring_file" : "Bring File",
+    "prepare_tea" : "Prepare Tea",
+    "urgent_meeting" : "Urgent Meeting",
+    "come_now" : "Come Now",
+    "cleaning" : "Cleaning",
+    "home" : "Home",
+    "dashboard" : "Dashboard",
+    "notifications" : "Notifications",
+    "history" : "History",
+    "search_employee" : "Search employee...",
+    "officer_dashboard" : "Office Dashboard",
+    "available" : "Available",
+    "busy" : "Busy",
+    "on_leave" : "On Leave",
+    "assigned_task" : "Assigned Task",
+    "activity_feed" : "Activity Feed",
+    "all" : "All",
+    "pending" : "Pending",
+    "accept" : "Accept",
+    "done" : "Done", 
+    "no_tasks_assinged" : "No tasks assigned",
+    "all_status" : "All Status",
+    "all_time" : "All Time",
+    "export" : "Export",
+    "welcom_admin" : "Welcom Admin",
+    "employees" : "Empoyees",
+    "tasks" : "Tasks",
+    "completed" : "Completed",
+    "alerts" : "Alerts",
+    "manage_employees_and_tasks_efficiently" : "Manage employees and tasks efficiently",
+    "active_staff" : "Active Staff",
+    "finished_tasks" : "Finished Tasks",
+    "task_updates" : "Task Updateds",
+    "task_summary" : "Task Summary",
+    "employee_management" : "Employee Management",
+    "quick_actions" : "Quick Actions",
+    "reports" : "Reports",
+    "normal" : "Normal",
+    "urgent" : "Urgent",
+    "very_urgent" : "Very Urgent",
+    "note_(optional)" : "Note (optional)",
+    "any_extra_detail_for_this_task..." : "Any extra detail for this task...",
+    "assign_task" : "Assign Task",
+    "work_type" : "Work Type",
+    "no_employee_found" : "No employee found",
+    "admin_portal" : "Admin Portal",
+    "today" : "Today",
+    "yesterday" : "Yesterday",
+    "last_week" : "Last Week",
+    "older" : "older",
+    "export_coming_soon" : "Export feature coming soon!",
+    "no_history_found" : "No history found",
+
+  "welcome_admin": "Welcome Admin 👋",
+  "manage_employees_tasks": "Manage employees and tasks efficiently",
+  "assigned_tasks": "Assigned Tasks",
+  "accepted": "Accepted",
+  "search_employees_hint": "Search employees by name, department, or room...",
+  "no_employees_match": "No employees match \"{query}\"",
+  "delete_employee": "Delete Employee",
+  "delete_confirmation": "Are you sure you want to delete this employee?",
+  "delete": "Delete",
+  "could_not_delete_employee": "Could not delete employee: {error}",
+  "no_status_updates_yet": "No status updates yet",
+
+  "please_choose_work_type": "Please choose or type a work type",
+  "waiting_for_response": "Waiting for response",
+  "priority_label": "Priority: {priority}",
+  "type_work_here": "Type the work...",
+  "priority": "Priority",
+  "note_optional": "Note (optional)",
+  "extra_detail_hint": "Any extra detail for this task...",
+  "task_assigned_success": "🔔 Task '{workType}' assigned to {employee} — ringbell sent",
+  "failed_to_assign_task": "Failed to assign task: {error}",
+  "ring_again_success": "🔔 Rang {employee} again for '{workType}'",
+  "failed_to_ring": "Failed to ring again: {error}",
+  "ring_success": "Rang {name} ✅",
+  "failed_to_ring_connection": "Failed to ring. Check connection.",
+  "just_ring": "Just Ring {name}",
+  "ringing...": "Ringing...",
+
+
+
+  "employee_name": "Employee Name",
+  "department": "Department",
+  "designation": "Designation",
+  "room_number": "Room Number",
+  "login_credentials": "Login credentials (for General User access)",
+  "mobile_no_login": "Mobile No (used to log in)",
+  "email_optional": "Email (optional)",
+  "password": "Password",
+  "fill_required_fields": "Please fill Name, Designation, Room, Mobile No and Password",
+  "could_not_save_employee": "Could not save employee: {error}",
+
+  
+  "room": "Room",
+  "mobile": "Mobile",
+
+  "priority_normal": "Normal",
+"priority_urgent": "Urgent",
+"priority_very_urgent": "Very Urgent",
+
+
+  "mobile_number": "Mobile Number",
+  "room_no": "Room No.",
+  "email": "Email",
+  "employee_id": "Employee ID",
+  
+  "change_mobile": "Change mobile number",
+  "profile_note": "Only your mobile number can be changed here. Your name, role, department and password are managed by the Admin.",
+
+
+  "update_your_status": "Update Your Status",
+  "status_updated_to": "Status updated to {}",
+  "failed_to_update_status": "Failed to update status",
+  "hello": "Hello,",
+  "you_have": "You have",
+  "no_tasks_here": "No tasks here.",
+  "from": "From: {}",
+
+    "no_history_yet": "No history yet",
+
+  "assign": "Assign",
+ 
+  "profile": "Profile",
+  "my_profile": "My Profile",
+
+  "my_assigned_tasks_live": "My Assigned Tasks — Live",
+
+  "user_not_found": "User Not Found",
+  "account_deleted_logging_out": "Your account has been deleted. Logging out...",
+
+  "no_notifications_yet": "No notifications yet",
+  "new_task_assigned": "New Task Assigned",
+  "view_task": "View Task",
+
+  "you_have_task_from": "You have a task from {department}.",
+  "you_have_new_task_from": "You have a new task from {department}.",
+
+  "no_colleagues_to_assign": "No other colleagues to assign tasks to yet.",
+  "tap_map_icon_for_live_status": "Tap the map icon above to see the live status of tasks you've assigned.",
+  "tasks_sent_by_you": "Tasks assigned by you: {count}",
+
+  "Manager": "Manager",
+  "Receptionist": "Receptionist",
+  "Office Assistant": "Office Assistant",
+
+  "IT": "IT",
+  "HR": "HR",
+  "Admin": "Admin",
+  "Account": "Account",
+
+  "employee_offline": "Employee Offline",
+"employee_offline_cannot_assign": "{name} is currently offline and cannot be assigned a task.",
+
+"online": "Online",
+  "offline": "Offline"
+
+
+
+
+
+
+} 

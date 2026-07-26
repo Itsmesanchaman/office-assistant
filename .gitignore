@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# Firebase config files (sensitive - contains API keys)
+android/app/google-services.json
+android/app/src/*/google-services.json
+
+# Signing/keystore files (sensitive)
+android/key.properties
+*.jks
+*.keystore
+
+# Environment variables (if used in future)
+.env
+.env.local
+
+# Supabase local cache (auto-regenerated, not needed in repo)
+supabase/.temp/
+
+
+# Gradle local cache (auto-regenerated)
+android/.gradle/
+
+# Local machine-specific SDK path
+android/local.properties
+
+# Supabase local cache
+supabase/.temp/
+
+# iOS ephemeral (auto-regenerated)
+ios/Flutter/ephemeral/
