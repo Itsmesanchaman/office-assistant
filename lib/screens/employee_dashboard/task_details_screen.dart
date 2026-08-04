@@ -134,7 +134,7 @@ class TaskDetailsScreen extends StatelessWidget {
                     border: Border.all(color: statusColor(task.status)),
                   ),
                   child: Text(
-                    task.status,
+                    TaskStatus.labelTr(task.status),
                     style: TextStyle(
                       color: statusColor(task.status),
                       fontWeight: FontWeight.bold,
@@ -157,10 +157,14 @@ class TaskDetailsScreen extends StatelessWidget {
                   mainAxisSpacing: 12,
                   childAspectRatio: 2.6,
                   children: [
-                    _statusButton(TaskStatus.accepted, Colors.green),
-                    _statusButton(TaskStatus.busy, Colors.blue),
-                    _statusButton(TaskStatus.pending, Colors.orange),
-                    _statusButton(TaskStatus.done, Colors.grey.shade700),
+                    _statusButton(context, TaskStatus.accepted, Colors.green),
+                    _statusButton(context, TaskStatus.busy, Colors.blue),
+                    _statusButton(context, TaskStatus.pending, Colors.orange),
+                    _statusButton(
+                      context,
+                      TaskStatus.done,
+                      Colors.grey.shade700,
+                    ),
                   ],
                 ),
               ],
@@ -192,7 +196,7 @@ class TaskDetailsScreen extends StatelessWidget {
     );
   }
 
-  Widget _statusButton(String status, Color color) {
+  Widget _statusButton(BuildContext context, String status, Color color) {
     final isCurrent = task.status == status;
     final isDone = task.status == TaskStatus.done;
 
@@ -205,9 +209,28 @@ class TaskDetailsScreen extends StatelessWidget {
       ),
       onPressed: (isDone && !isCurrent)
           ? null
-          : () => TaskService.instance.updateStatus(task.id, status),
+          : () async {
+              await TaskService.instance.updateStatus(task.id, status);
+
+              if (!context.mounted) return;
+
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text(
+                    "Status updated to ${TaskStatus.labelTr(status)}",
+                  ),
+                  backgroundColor: color,
+                  duration: const Duration(seconds: 2),
+                ),
+              );
+
+              await Future.delayed(const Duration(milliseconds: 800));
+
+              if (!context.mounted) return;
+              Navigator.pop(context);
+            },
       child: Text(
-        status,
+        TaskStatus.labelTr(status),
         style: const TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
