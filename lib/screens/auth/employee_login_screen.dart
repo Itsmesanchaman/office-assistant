@@ -117,7 +117,7 @@ class _EmployeeLoginScreenState extends State<EmployeeLoginScreen> {
                                   ),
                                   const SizedBox(height: 16),
                                   const Text(
-                                    "Welcome Back!",
+                                    "Welcome",
                                     style: TextStyle(
                                       fontSize: 22,
                                       fontWeight: FontWeight.bold,
