@@ -15,7 +15,7 @@ class _NotificationHomeScreenState extends State<NotificationHomeScreen> {
   @override
   void initState() {
     super.initState();
-    // Opening this screen counts as the admin reviewing task updates.
+    
     WidgetsBinding.instance.addPostFrameCallback((_) {
       TaskService.instance.markAllSeenByAdmin();
     });

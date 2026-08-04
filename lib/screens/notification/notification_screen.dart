@@ -266,7 +266,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
     return Padding(
       padding: const EdgeInsets.only(right: 8),
       child: ChoiceChip(
-        label: Text(text),
+        label: Text(TaskStatus.labelKey(text).tr()),
         selected: selected,
         onSelected: (_) => setState(() => selectedFilter = text),
       ),
@@ -286,7 +286,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
           Icon(statusIcon(status), size: 14, color: statusColor(status)),
           const SizedBox(width: 4),
           Text(
-            status,
+            TaskStatus.labelTr(status),
             style: TextStyle(
               color: statusColor(status),
               fontWeight: FontWeight.bold,

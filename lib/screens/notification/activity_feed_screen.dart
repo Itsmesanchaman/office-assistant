@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../services/task_service.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:tmobile_app/models/task.dart';
 
 class ActivityFeedScreen extends StatelessWidget {
   const ActivityFeedScreen({super.key});
@@ -85,7 +86,7 @@ class ActivityFeedScreen extends StatelessWidget {
                       ),
                       TextSpan(text: " marked task '${entry.workType}' as "),
                       TextSpan(
-                        text: entry.status,
+                        text: TaskStatus.labelTr(entry.status),
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: statusColor(entry.status),
