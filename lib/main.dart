@@ -18,8 +18,11 @@ import 'package:tmobile_app/services/presence_service.dart';
 @pragma('vm:entry-point')
 Future<void> _firebaseBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
-  if (message.data['type'] == 'ring_again') {
+  final type = message.data['type'];
+  if (type == 'ring_again') {
     await NotificationService.handleRingAgain(message.data);
+  } else if (type == 'task_assigned' || type == 'ring_only') {
+    await NotificationService.handleSingleRing(message.data);   // ← naya function
   }
 }
 
